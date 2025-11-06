@@ -1,0 +1,72 @@
+{
+  "uid" : "8d4afac19eb27ec4",
+  "name" : "loginViaRegistrationForm(Browser) [2] YANDEX",
+  "fullName" : "pageobject.LoginTest.loginViaRegistrationForm",
+  "historyId" : "aca0d1a85b026cd6ea82d944059333dc",
+  "time" : {
+    "start" : 1762447599514,
+    "stop" : 1762447610217,
+    "duration" : 10703
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.LoginTest]/[test-template:loginViaRegistrationForm(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#2]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "7188@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginViaRegistrationForm"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6670041e58c3f26d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1762428781061,
+        "stop" : 1762428790256,
+        "duration" : 9195
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d4afac19eb27ec4.json",
+  "parameterValues" : [ ]
+}

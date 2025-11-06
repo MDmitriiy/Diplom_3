@@ -1,0 +1,72 @@
+{
+  "uid" : "fa1c4c521fe761a3",
+  "name" : "testNavigateToSaucesSection(Browser) [2] YANDEX",
+  "fullName" : "pageobject.ConstructorSectionsTest.testNavigateToSaucesSection",
+  "historyId" : "98da101ae4a4d55d809ee07aed8962a4",
+  "time" : {
+    "start" : 1762447509356,
+    "stop" : 1762447518725,
+    "duration" : 9369
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.ConstructorSectionsTest]/[test-template:testNavigateToSaucesSection(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#2]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "7188@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.ConstructorSectionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.ConstructorSectionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNavigateToSaucesSection"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.ConstructorSectionsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6928eb0e5d65707b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1762428705267,
+        "stop" : 1762428714348,
+        "duration" : 9081
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa1c4c521fe761a3.json",
+  "parameterValues" : [ ]
+}

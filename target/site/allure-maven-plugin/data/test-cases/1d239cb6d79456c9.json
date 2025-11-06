@@ -1,0 +1,62 @@
+{
+  "uid" : "1d239cb6d79456c9",
+  "name" : "loginViaPersonalCabinetButton(Browser) [2] YANDEX",
+  "fullName" : "pageobject.LoginTest.loginViaPersonalCabinetButton",
+  "historyId" : "2588d0bb7250d1bd47bd00f4a12b0ea4",
+  "time" : {
+    "start" : 1762428743229,
+    "stop" : 1762428754584,
+    "duration" : 11355
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.LoginTest]/[test-template:loginViaPersonalCabinetButton(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#2]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "6548@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginViaPersonalCabinetButton"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d239cb6d79456c9.json",
+  "parameterValues" : [ ]
+}

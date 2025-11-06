@@ -1,0 +1,62 @@
+{
+  "uid" : "783f0b48acb9f12e",
+  "name" : "registerWithShortPasswordShowsError(Browser) [1] CHROME",
+  "fullName" : "pageobject.RegistrationTest.registerWithShortPasswordShowsError",
+  "historyId" : "9c746ed2247c4840b90a5c920f2cb2e8",
+  "time" : {
+    "start" : 1762428886210,
+    "stop" : 1762428895802,
+    "duration" : 9592
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.RegistrationTest]/[test-template:registerWithShortPasswordShowsError(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#1]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "6548@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerWithShortPasswordShowsError"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "783f0b48acb9f12e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "33f53a4a1b0aefde",
+  "name" : "navigateToProfileViaPersonalCabinet(Browser) [2] YANDEX",
+  "fullName" : "pageobject.PersonalCabinetTest.navigateToProfileViaPersonalCabinet",
+  "historyId" : "10c74b2121945bf32b02d7a89d2e525d",
+  "time" : {
+    "start" : 1762428876328,
+    "stop" : 1762428886179,
+    "duration" : 9851
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.PersonalCabinetTest]/[test-template:navigateToProfileViaPersonalCabinet(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#2]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "6548@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.PersonalCabinetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.PersonalCabinetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToProfileViaPersonalCabinet"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.PersonalCabinetTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33f53a4a1b0aefde.json",
+  "parameterValues" : [ ]
+}

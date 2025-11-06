@@ -1,0 +1,72 @@
+{
+  "uid" : "52779c809e791a41",
+  "name" : "testNavigateToBunsSection(Browser) [1] CHROME",
+  "fullName" : "pageobject.ConstructorSectionsTest.testNavigateToBunsSection",
+  "historyId" : "9d0f45e51e90b65ce653c9b53038abbf",
+  "time" : {
+    "start" : 1762447518737,
+    "stop" : 1762447530198,
+    "duration" : 11461
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.ConstructorSectionsTest]/[test-template:testNavigateToBunsSection(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#1]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "7188@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.ConstructorSectionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.ConstructorSectionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNavigateToBunsSection"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.ConstructorSectionsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c453b656b3666e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1762428714359,
+        "stop" : 1762428722498,
+        "duration" : 8139
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52779c809e791a41.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "894521d13cbf3fb5",
+  "name" : "registerUserInBrowsers(Browser) [1] CHROME",
+  "fullName" : "pageobject.RegistrationTest.registerUserInBrowsers",
+  "historyId" : "62e36f4bb5127709ee5a810f08223dc7",
+  "time" : {
+    "start" : 1762428904137,
+    "stop" : 1762428910852,
+    "duration" : 6715
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.RegistrationTest]/[test-template:registerUserInBrowsers(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#1]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "6548@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerUserInBrowsers"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "894521d13cbf3fb5.json",
+  "parameterValues" : [ ]
+}

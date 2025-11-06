@@ -1,0 +1,72 @@
+{
+  "uid" : "b6ea13c57a80d57",
+  "name" : "navigateToConstructorFromPersonalCabinet(Browser) [1] CHROME",
+  "fullName" : "pageobject.NavigationFromPersonalCabinetTest.navigateToConstructorFromPersonalCabinet",
+  "historyId" : "6491e220d56fe4c6057943743fd6ded0",
+  "time" : {
+    "start" : 1762447669055,
+    "stop" : 1762447677518,
+    "duration" : 8463
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:pageobject.NavigationFromPersonalCabinetTest]/[test-template:navigateToConstructorFromPersonalCabinet(pageobject.BrowserSetup$Browser)]/[test-template-invocation:#1]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BS7NCGD1"
+  }, {
+    "name" : "thread",
+    "value" : "7188@LAPTOP-BS7NCGD1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pageobject.NavigationFromPersonalCabinetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pageobject.NavigationFromPersonalCabinetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToConstructorFromPersonalCabinet"
+  }, {
+    "name" : "suite",
+    "value" : "pageobject.NavigationFromPersonalCabinetTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "15d7c614e55a26de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1762428845644,
+        "stop" : 1762428856454,
+        "duration" : 10810
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6ea13c57a80d57.json",
+  "parameterValues" : [ ]
+}

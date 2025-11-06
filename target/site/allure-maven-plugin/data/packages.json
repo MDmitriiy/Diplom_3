@@ -1,0 +1,475 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pageobject",
+    "children" : [ {
+      "name" : "ConstructorSectionsTest",
+      "children" : [ {
+        "name" : "testNavigateToFillingsSection",
+        "uid" : "10fa9fa31cfc05fd",
+        "parentUid" : "3cba36e18c0a6232bad08608d74744a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447478263,
+          "stop" : 1762447488694,
+          "duration" : 10431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testNavigateToFillingsSection",
+        "uid" : "415a8c1b136e0665",
+        "parentUid" : "3cba36e18c0a6232bad08608d74744a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447488878,
+          "stop" : 1762447501417,
+          "duration" : 12539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testNavigateToSaucesSection",
+        "uid" : "e7639ef28c80e88f",
+        "parentUid" : "3cba36e18c0a6232bad08608d74744a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447501431,
+          "stop" : 1762447509341,
+          "duration" : 7910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testNavigateToSaucesSection",
+        "uid" : "fa1c4c521fe761a3",
+        "parentUid" : "3cba36e18c0a6232bad08608d74744a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447509356,
+          "stop" : 1762447518725,
+          "duration" : 9369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testNavigateToBunsSection",
+        "uid" : "52779c809e791a41",
+        "parentUid" : "3cba36e18c0a6232bad08608d74744a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447518737,
+          "stop" : 1762447530198,
+          "duration" : 11461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testNavigateToBunsSection",
+        "uid" : "52c38cef7e39cb0",
+        "parentUid" : "3cba36e18c0a6232bad08608d74744a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447530215,
+          "stop" : 1762447540706,
+          "duration" : 10491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cba36e18c0a6232bad08608d74744a7"
+    }, {
+      "name" : "LoginTest",
+      "children" : [ {
+        "name" : "loginViaPersonalCabinetButton",
+        "uid" : "b06ac703302f3093",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447540770,
+          "stop" : 1762447551362,
+          "duration" : 10592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginViaPersonalCabinetButton",
+        "uid" : "7b8c2e92f6f0d28c",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447551383,
+          "stop" : 1762447564302,
+          "duration" : 12919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginViaMainPageButton",
+        "uid" : "c60256069a7d3c33",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447564309,
+          "stop" : 1762447577487,
+          "duration" : 13178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginViaMainPageButton",
+        "uid" : "43e13e9b7cddd8da",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447577499,
+          "stop" : 1762447589084,
+          "duration" : 11585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginViaRegistrationForm",
+        "uid" : "434ef0ffbf3bde97",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447589103,
+          "stop" : 1762447599505,
+          "duration" : 10402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginViaRegistrationForm",
+        "uid" : "8d4afac19eb27ec4",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447599514,
+          "stop" : 1762447610217,
+          "duration" : 10703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginViaPasswordRecoveryForm",
+        "uid" : "fbf4ffcd61441b54",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447610230,
+          "stop" : 1762447618001,
+          "duration" : 7771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginViaPasswordRecoveryForm",
+        "uid" : "18f4b07af02c5311",
+        "parentUid" : "d78276cff632e74b930f6042cd9d0075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447618012,
+          "stop" : 1762447627200,
+          "duration" : 9188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d78276cff632e74b930f6042cd9d0075"
+    }, {
+      "name" : "LogoutTest",
+      "children" : [ {
+        "name" : "logoutViaPersonalCabinet",
+        "uid" : "716172b5c359452a",
+        "parentUid" : "301013acde608eab1180e4ca21fe948a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447627221,
+          "stop" : 1762447636845,
+          "duration" : 9624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logoutViaPersonalCabinet",
+        "uid" : "4b584fec59527b11",
+        "parentUid" : "301013acde608eab1180e4ca21fe948a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447636851,
+          "stop" : 1762447649707,
+          "duration" : 12856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "301013acde608eab1180e4ca21fe948a"
+    }, {
+      "name" : "NavigationFromPersonalCabinetTest",
+      "children" : [ {
+        "name" : "navigateToMainPageViaLogoFromPersonalCabinet",
+        "uid" : "34a0671be69cdce0",
+        "parentUid" : "545139311ace0981cdea5dfef6865334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447649733,
+          "stop" : 1762447658716,
+          "duration" : 8983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToMainPageViaLogoFromPersonalCabinet",
+        "uid" : "a040078bc11c097",
+        "parentUid" : "545139311ace0981cdea5dfef6865334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447658724,
+          "stop" : 1762447669043,
+          "duration" : 10319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToConstructorFromPersonalCabinet",
+        "uid" : "b6ea13c57a80d57",
+        "parentUid" : "545139311ace0981cdea5dfef6865334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447669055,
+          "stop" : 1762447677518,
+          "duration" : 8463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToConstructorFromPersonalCabinet",
+        "uid" : "ee4340336b2d82a0",
+        "parentUid" : "545139311ace0981cdea5dfef6865334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447677532,
+          "stop" : 1762447687788,
+          "duration" : 10256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "545139311ace0981cdea5dfef6865334"
+    }, {
+      "name" : "PersonalCabinetTest",
+      "children" : [ {
+        "name" : "navigateToProfileViaPersonalCabinet",
+        "uid" : "53dc53fe5210f33d",
+        "parentUid" : "4ada0f07f53a3a89113a756e9f345752",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447687804,
+          "stop" : 1762447696565,
+          "duration" : 8761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToProfileViaPersonalCabinet",
+        "uid" : "2b561ca1716eec8d",
+        "parentUid" : "4ada0f07f53a3a89113a756e9f345752",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447696570,
+          "stop" : 1762447706015,
+          "duration" : 9445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ada0f07f53a3a89113a756e9f345752"
+    }, {
+      "name" : "RegistrationTest",
+      "children" : [ {
+        "name" : "registerWithShortPasswordShowsError",
+        "uid" : "6ad438273d6940d2",
+        "parentUid" : "9442fbcf961ddc3956690b4ba9fc93d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447706026,
+          "stop" : 1762447715100,
+          "duration" : 9074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerWithShortPasswordShowsError",
+        "uid" : "9a2eb79cd08cf804",
+        "parentUid" : "9442fbcf961ddc3956690b4ba9fc93d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447715105,
+          "stop" : 1762447725533,
+          "duration" : 10428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerUserInBrowsers",
+        "uid" : "d5e5a814d4cb1526",
+        "parentUid" : "9442fbcf961ddc3956690b4ba9fc93d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447725542,
+          "stop" : 1762447732554,
+          "duration" : 7012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerUserInBrowsers",
+        "uid" : "e38021bc3d64c518",
+        "parentUid" : "9442fbcf961ddc3956690b4ba9fc93d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762447732559,
+          "stop" : 1762447741127,
+          "duration" : 8568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9442fbcf961ddc3956690b4ba9fc93d5"
+    } ],
+    "uid" : "3fa4dea065837143e43ca8a3f1012b4d"
+  } ]
+}
