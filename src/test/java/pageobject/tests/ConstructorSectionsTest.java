@@ -1,9 +1,11 @@
-package pageobject;
+package pageobject.tests;
 
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import pageobject.ApiConf;
+import pageobject.BrowserConfig;
 import pageobject.pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.*;

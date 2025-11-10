@@ -2,16 +2,16 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "pageobject.ConstructorSectionsTest",
+    "name" : "pageobject.tests.ConstructorSectionsTest",
     "children" : [ {
       "name" : "Проверка навигации к секции начинок",
-      "uid" : "2d7089aeeaf75642",
-      "parentUid" : "7a61cb5165cef44ab2e57408ed1be239",
+      "uid" : "ae50151bf3c494f4",
+      "parentUid" : "693f36a197342a453d0fd4382985082c",
       "status" : "passed",
       "time" : {
-        "start" : 1762736234009,
-        "stop" : 1762736239863,
-        "duration" : 5854
+        "start" : 1762737073142,
+        "stop" : 1762737080625,
+        "duration" : 7483
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +22,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Проверка навигации к секции соусов",
-      "uid" : "5d3b6ece154c1ddb",
-      "parentUid" : "7a61cb5165cef44ab2e57408ed1be239",
+      "uid" : "c2269a6aec0ae21",
+      "parentUid" : "693f36a197342a453d0fd4382985082c",
       "status" : "passed",
       "time" : {
-        "start" : 1762736240018,
-        "stop" : 1762736244317,
-        "duration" : 4299
+        "start" : 1762737080883,
+        "stop" : 1762737085110,
+        "duration" : 4227
       },
       "flaky" : false,
       "newFailed" : false,
@@ -39,13 +39,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Проверка навигации к секции булок",
-      "uid" : "53760b22fcc2214a",
-      "parentUid" : "7a61cb5165cef44ab2e57408ed1be239",
+      "uid" : "13b9730aebf20fa2",
+      "parentUid" : "693f36a197342a453d0fd4382985082c",
       "status" : "passed",
       "time" : {
-        "start" : 1762736244324,
-        "stop" : 1762736248616,
-        "duration" : 4292
+        "start" : 1762737085115,
+        "stop" : 1762737089371,
+        "duration" : 4256
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,18 +55,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "7a61cb5165cef44ab2e57408ed1be239"
+    "uid" : "693f36a197342a453d0fd4382985082c"
   }, {
-    "name" : "pageobject.LoginTest",
+    "name" : "pageobject.tests.LoginTest",
     "children" : [ {
       "name" : "Вход через личный кабинет",
-      "uid" : "11bc4f77a9c51b96",
-      "parentUid" : "f9fe65487e3d9667f1ca9d96354df558",
+      "uid" : "28d59ab65565772",
+      "parentUid" : "051ebb678366d794a125992804dd91c4",
       "status" : "passed",
       "time" : {
-        "start" : 1762736248641,
-        "stop" : 1762736256533,
-        "duration" : 7892
+        "start" : 1762737089439,
+        "stop" : 1762737097024,
+        "duration" : 7585
       },
       "flaky" : false,
       "newFailed" : false,
@@ -77,13 +77,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Вход через главную страницу",
-      "uid" : "b8ad26767a97861",
-      "parentUid" : "f9fe65487e3d9667f1ca9d96354df558",
+      "uid" : "f36988d659137ec",
+      "parentUid" : "051ebb678366d794a125992804dd91c4",
       "status" : "passed",
       "time" : {
-        "start" : 1762736256547,
-        "stop" : 1762736262315,
-        "duration" : 5768
+        "start" : 1762737097039,
+        "stop" : 1762737103384,
+        "duration" : 6345
       },
       "flaky" : false,
       "newFailed" : false,
@@ -94,13 +94,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Вход через форму регистрации",
-      "uid" : "448bc64b36bf9c95",
-      "parentUid" : "f9fe65487e3d9667f1ca9d96354df558",
+      "uid" : "cd639bc76d013cdd",
+      "parentUid" : "051ebb678366d794a125992804dd91c4",
       "status" : "passed",
       "time" : {
-        "start" : 1762736262322,
-        "stop" : 1762736268090,
-        "duration" : 5768
+        "start" : 1762737103389,
+        "stop" : 1762737108927,
+        "duration" : 5538
       },
       "flaky" : false,
       "newFailed" : false,
@@ -111,13 +111,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Вход через форму восстановления пароля",
-      "uid" : "991548dd77ff6fd0",
-      "parentUid" : "f9fe65487e3d9667f1ca9d96354df558",
+      "uid" : "2b86dddd9b5d8d63",
+      "parentUid" : "051ebb678366d794a125992804dd91c4",
       "status" : "passed",
       "time" : {
-        "start" : 1762736268101,
-        "stop" : 1762736273853,
-        "duration" : 5752
+        "start" : 1762737108933,
+        "stop" : 1762737114486,
+        "duration" : 5553
       },
       "flaky" : false,
       "newFailed" : false,
@@ -127,18 +127,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "f9fe65487e3d9667f1ca9d96354df558"
+    "uid" : "051ebb678366d794a125992804dd91c4"
   }, {
-    "name" : "pageobject.LogoutTest",
+    "name" : "pageobject.tests.LogoutTest",
     "children" : [ {
       "name" : "Выход из аккаунта через личный кабинет",
-      "uid" : "c2c0fd56d8b4e390",
-      "parentUid" : "7e34b8c9d3e427aca1e7b2d71a04fc20",
+      "uid" : "60b34c0449b331e6",
+      "parentUid" : "d9148c31b59eb743f4e35275c3c0b87e",
       "status" : "passed",
       "time" : {
-        "start" : 1762736273885,
-        "stop" : 1762736280405,
-        "duration" : 6520
+        "start" : 1762737114524,
+        "stop" : 1762737120814,
+        "duration" : 6290
       },
       "flaky" : false,
       "newFailed" : false,
@@ -148,18 +148,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "7e34b8c9d3e427aca1e7b2d71a04fc20"
+    "uid" : "d9148c31b59eb743f4e35275c3c0b87e"
   }, {
-    "name" : "pageobject.NavigationFromPersonalCabinetTest",
+    "name" : "pageobject.tests.NavigationFromPersonalCabinetTest",
     "children" : [ {
       "name" : "Переход из личного кабинета в главную страницу через логотип",
-      "uid" : "b688d4a5cd224a79",
-      "parentUid" : "d4a64683d500ef000871dae562402795",
+      "uid" : "1971c5e802e8f8a0",
+      "parentUid" : "5099d99a021e23743773a9a7674f611e",
       "status" : "passed",
       "time" : {
-        "start" : 1762736280428,
-        "stop" : 1762736286209,
-        "duration" : 5781
+        "start" : 1762737120836,
+        "stop" : 1762737127212,
+        "duration" : 6376
       },
       "flaky" : false,
       "newFailed" : false,
@@ -170,13 +170,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Переход из личного кабинета в конструктор",
-      "uid" : "d584f3d7c4fd79c8",
-      "parentUid" : "d4a64683d500ef000871dae562402795",
+      "uid" : "d8e1486f21cc10b5",
+      "parentUid" : "5099d99a021e23743773a9a7674f611e",
       "status" : "passed",
       "time" : {
-        "start" : 1762736286221,
-        "stop" : 1762736292270,
-        "duration" : 6049
+        "start" : 1762737127227,
+        "stop" : 1762737134324,
+        "duration" : 7097
       },
       "flaky" : false,
       "newFailed" : false,
@@ -186,18 +186,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "d4a64683d500ef000871dae562402795"
+    "uid" : "5099d99a021e23743773a9a7674f611e"
   }, {
-    "name" : "pageobject.PersonalCabinetTest",
+    "name" : "pageobject.tests.PersonalCabinetTest",
     "children" : [ {
       "name" : "Переход в профиль через личный кабинет",
-      "uid" : "585bb337c3ea019d",
-      "parentUid" : "22514f39cd5fc9ab77b13aa8342958a3",
+      "uid" : "280ecbe4d7d969fc",
+      "parentUid" : "e83cb11938927b53c3c93fb2942e533e",
       "status" : "passed",
       "time" : {
-        "start" : 1762736292304,
-        "stop" : 1762736297506,
-        "duration" : 5202
+        "start" : 1762737134355,
+        "stop" : 1762737139743,
+        "duration" : 5388
       },
       "flaky" : false,
       "newFailed" : false,
@@ -207,18 +207,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "22514f39cd5fc9ab77b13aa8342958a3"
+    "uid" : "e83cb11938927b53c3c93fb2942e533e"
   }, {
-    "name" : "pageobject.RegistrationTest",
+    "name" : "pageobject.tests.RegistrationTest",
     "children" : [ {
       "name" : "Регистрация пользователя",
-      "uid" : "6669cd1d03d8e3b6",
-      "parentUid" : "9e94f370891fcd54b5c544ee2102e053",
+      "uid" : "5768a0ad9aaed0f0",
+      "parentUid" : "d423208d3a933acef6c49e65e0e2b2d8",
       "status" : "passed",
       "time" : {
-        "start" : 1762736297535,
-        "stop" : 1762736302609,
-        "duration" : 5074
+        "start" : 1762737139768,
+        "stop" : 1762737144906,
+        "duration" : 5138
       },
       "flaky" : false,
       "newFailed" : false,
@@ -229,13 +229,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Регистрация с коротким паролем",
-      "uid" : "50a0dd881502da4",
-      "parentUid" : "9e94f370891fcd54b5c544ee2102e053",
+      "uid" : "969a1bfd0c5cdd88",
+      "parentUid" : "d423208d3a933acef6c49e65e0e2b2d8",
       "status" : "passed",
       "time" : {
-        "start" : 1762736302613,
-        "stop" : 1762736307401,
-        "duration" : 4788
+        "start" : 1762737144911,
+        "stop" : 1762737150822,
+        "duration" : 5911
       },
       "flaky" : false,
       "newFailed" : false,
@@ -245,6 +245,6 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "9e94f370891fcd54b5c544ee2102e053"
+    "uid" : "d423208d3a933acef6c49e65e0e2b2d8"
   } ]
 }

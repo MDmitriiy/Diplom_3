@@ -1,8 +1,8 @@
 {
   "total" : 6,
   "items" : [ {
-    "uid" : "f9fe65487e3d9667f1ca9d96354df558",
-    "name" : "pageobject.LoginTest",
+    "uid" : "051ebb678366d794a125992804dd91c4",
+    "name" : "pageobject.tests.LoginTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "7a61cb5165cef44ab2e57408ed1be239",
-    "name" : "pageobject.ConstructorSectionsTest",
+    "uid" : "693f36a197342a453d0fd4382985082c",
+    "name" : "pageobject.tests.ConstructorSectionsTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +23,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "d4a64683d500ef000871dae562402795",
-    "name" : "pageobject.NavigationFromPersonalCabinetTest",
+    "uid" : "5099d99a021e23743773a9a7674f611e",
+    "name" : "pageobject.tests.NavigationFromPersonalCabinetTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "9e94f370891fcd54b5c544ee2102e053",
-    "name" : "pageobject.RegistrationTest",
+    "uid" : "d423208d3a933acef6c49e65e0e2b2d8",
+    "name" : "pageobject.tests.RegistrationTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -45,8 +45,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "7e34b8c9d3e427aca1e7b2d71a04fc20",
-    "name" : "pageobject.LogoutTest",
+    "uid" : "d9148c31b59eb743f4e35275c3c0b87e",
+    "name" : "pageobject.tests.LogoutTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -56,8 +56,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "22514f39cd5fc9ab77b13aa8342958a3",
-    "name" : "pageobject.PersonalCabinetTest",
+    "uid" : "e83cb11938927b53c3c93fb2942e533e",
+    "name" : "pageobject.tests.PersonalCabinetTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

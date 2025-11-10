@@ -1,6 +1,9 @@
-package pageobject;
+package pageobject.tests;
 
 import org.junit.jupiter.api.*;
+import pageobject.ApiConf;
+import pageobject.BrowserConfig;
+import pageobject.UserData;
 import pageobject.pages.MainPage;
 import pageobject.pages.RegistrationPage;
 

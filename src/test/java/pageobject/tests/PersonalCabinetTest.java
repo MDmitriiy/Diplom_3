@@ -1,9 +1,12 @@
-package pageobject;
+package pageobject.tests;
 
 import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import pageobject.ApiConf;
+import pageobject.BrowserConfig;
+import pageobject.UserData;
 import pageobject.pages.MainPage;
 import pageobject.pages.LoginPage;
 
