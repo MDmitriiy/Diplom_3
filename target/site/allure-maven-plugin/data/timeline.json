@@ -4,462 +4,16 @@
   "children" : [ {
     "name" : "LAPTOP-BS7NCGD1",
     "children" : [ {
-      "name" : "7188@LAPTOP-BS7NCGD1.main(1)",
+      "name" : "11516@LAPTOP-BS7NCGD1.main(1)",
       "children" : [ {
-        "name" : "testNavigateToSaucesSection(Browser) [2] YANDEX",
-        "uid" : "fa1c4c521fe761a3",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
+        "name" : "Регистрация пользователя",
+        "uid" : "6669cd1d03d8e3b6",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762447509356,
-          "stop" : 1762447518725,
-          "duration" : 9369
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToSaucesSection(Browser) [1] CHROME",
-        "uid" : "e7639ef28c80e88f",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447501431,
-          "stop" : 1762447509341,
-          "duration" : 7910
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaPersonalCabinetButton(Browser) [1] CHROME",
-        "uid" : "b06ac703302f3093",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447540770,
-          "stop" : 1762447551362,
-          "duration" : 10592
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToFillingsSection(Browser) [1] CHROME",
-        "uid" : "10fa9fa31cfc05fd",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447478263,
-          "stop" : 1762447488694,
-          "duration" : 10431
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "logoutViaPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "716172b5c359452a",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447627221,
-          "stop" : 1762447636845,
-          "duration" : 9624
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaMainPageButton(Browser) [1] CHROME",
-        "uid" : "c60256069a7d3c33",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447564309,
-          "stop" : 1762447577487,
-          "duration" : 13178
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToProfileViaPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "2b561ca1716eec8d",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447696570,
-          "stop" : 1762447706015,
-          "duration" : 9445
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaPersonalCabinetButton(Browser) [2] YANDEX",
-        "uid" : "7b8c2e92f6f0d28c",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447551383,
-          "stop" : 1762447564302,
-          "duration" : 12919
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToConstructorFromPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "ee4340336b2d82a0",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447677532,
-          "stop" : 1762447687788,
-          "duration" : 10256
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registerWithShortPasswordShowsError(Browser) [1] CHROME",
-        "uid" : "6ad438273d6940d2",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447706026,
-          "stop" : 1762447715100,
-          "duration" : 9074
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToBunsSection(Browser) [2] YANDEX",
-        "uid" : "52c38cef7e39cb0",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447530215,
-          "stop" : 1762447540706,
-          "duration" : 10491
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "logoutViaPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "4b584fec59527b11",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447636851,
-          "stop" : 1762447649707,
-          "duration" : 12856
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToMainPageViaLogoFromPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "34a0671be69cdce0",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447649733,
-          "stop" : 1762447658716,
-          "duration" : 8983
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaRegistrationForm(Browser) [1] CHROME",
-        "uid" : "434ef0ffbf3bde97",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447589103,
-          "stop" : 1762447599505,
-          "duration" : 10402
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToProfileViaPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "53dc53fe5210f33d",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447687804,
-          "stop" : 1762447696565,
-          "duration" : 8761
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToFillingsSection(Browser) [2] YANDEX",
-        "uid" : "415a8c1b136e0665",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447488878,
-          "stop" : 1762447501417,
-          "duration" : 12539
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToBunsSection(Browser) [1] CHROME",
-        "uid" : "52779c809e791a41",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447518737,
-          "stop" : 1762447530198,
-          "duration" : 11461
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registerUserInBrowsers(Browser) [2] YANDEX",
-        "uid" : "e38021bc3d64c518",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447732559,
-          "stop" : 1762447741127,
-          "duration" : 8568
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registerUserInBrowsers(Browser) [1] CHROME",
-        "uid" : "d5e5a814d4cb1526",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447725542,
-          "stop" : 1762447732554,
-          "duration" : 7012
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToConstructorFromPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "b6ea13c57a80d57",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447669055,
-          "stop" : 1762447677518,
-          "duration" : 8463
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaRegistrationForm(Browser) [2] YANDEX",
-        "uid" : "8d4afac19eb27ec4",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447599514,
-          "stop" : 1762447610217,
-          "duration" : 10703
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToMainPageViaLogoFromPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "a040078bc11c097",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447658724,
-          "stop" : 1762447669043,
-          "duration" : 10319
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaMainPageButton(Browser) [2] YANDEX",
-        "uid" : "43e13e9b7cddd8da",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447577499,
-          "stop" : 1762447589084,
-          "duration" : 11585
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaPasswordRecoveryForm(Browser) [2] YANDEX",
-        "uid" : "18f4b07af02c5311",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447618012,
-          "stop" : 1762447627200,
-          "duration" : 9188
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registerWithShortPasswordShowsError(Browser) [2] YANDEX",
-        "uid" : "9a2eb79cd08cf804",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447715105,
-          "stop" : 1762447725533,
-          "duration" : 10428
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaPasswordRecoveryForm(Browser) [1] CHROME",
-        "uid" : "fbf4ffcd61441b54",
-        "parentUid" : "65f0a6b73fb807deb3a5fda979b1c2f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762447610230,
-          "stop" : 1762447618001,
-          "duration" : 7771
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "65f0a6b73fb807deb3a5fda979b1c2f9"
-    }, {
-      "name" : "6548@LAPTOP-BS7NCGD1.main(1)",
-      "children" : [ {
-        "name" : "testNavigateToBunsSection(Browser) [1] CHROME",
-        "uid" : "1c453b656b3666e",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428714359,
-          "stop" : 1762428722498,
-          "duration" : 8139
+          "start" : 1762736297535,
+          "stop" : 1762736302609,
+          "duration" : 5074
         },
         "flaky" : false,
         "newFailed" : false,
@@ -469,14 +23,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "navigateToProfileViaPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "33f53a4a1b0aefde",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Регистрация с коротким паролем",
+        "uid" : "50a0dd881502da4",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428876328,
-          "stop" : 1762428886179,
-          "duration" : 9851
+          "start" : 1762736302613,
+          "stop" : 1762736307401,
+          "duration" : 4788
         },
         "flaky" : false,
         "newFailed" : false,
@@ -486,14 +40,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "loginViaPasswordRecoveryForm(Browser) [2] YANDEX",
-        "uid" : "cc2b5d685969edee",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Вход через форму восстановления пароля",
+        "uid" : "991548dd77ff6fd0",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428797973,
-          "stop" : 1762428807163,
-          "duration" : 9190
+          "start" : 1762736268101,
+          "stop" : 1762736273853,
+          "duration" : 5752
         },
         "flaky" : false,
         "newFailed" : false,
@@ -503,14 +57,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "registerUserInBrowsers(Browser) [1] CHROME",
-        "uid" : "894521d13cbf3fb5",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Вход через личный кабинет",
+        "uid" : "11bc4f77a9c51b96",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428904137,
-          "stop" : 1762428910852,
-          "duration" : 6715
+          "start" : 1762736248641,
+          "stop" : 1762736256533,
+          "duration" : 7892
         },
         "flaky" : false,
         "newFailed" : false,
@@ -520,14 +74,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "registerWithShortPasswordShowsError(Browser) [2] YANDEX",
-        "uid" : "2e656a187fa4b7eb",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Проверка навигации к секции булок",
+        "uid" : "53760b22fcc2214a",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428895807,
-          "stop" : 1762428904116,
-          "duration" : 8309
+          "start" : 1762736244324,
+          "stop" : 1762736248616,
+          "duration" : 4292
         },
         "flaky" : false,
         "newFailed" : false,
@@ -537,14 +91,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "loginViaPersonalCabinetButton(Browser) [2] YANDEX",
-        "uid" : "1d239cb6d79456c9",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Вход через главную страницу",
+        "uid" : "b8ad26767a97861",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428743229,
-          "stop" : 1762428754584,
-          "duration" : 11355
+          "start" : 1762736256547,
+          "stop" : 1762736262315,
+          "duration" : 5768
         },
         "flaky" : false,
         "newFailed" : false,
@@ -554,14 +108,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "loginViaPersonalCabinetButton(Browser) [1] CHROME",
-        "uid" : "26e6504fbc0a1fb9",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Вход через форму регистрации",
+        "uid" : "448bc64b36bf9c95",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428734774,
-          "stop" : 1762428743215,
-          "duration" : 8441
+          "start" : 1762736262322,
+          "stop" : 1762736268090,
+          "duration" : 5768
         },
         "flaky" : false,
         "newFailed" : false,
@@ -571,14 +125,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "loginViaMainPageButton(Browser) [1] CHROME",
-        "uid" : "c9d12c693c16f7a",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Переход из личного кабинета в конструктор",
+        "uid" : "d584f3d7c4fd79c8",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428754593,
-          "stop" : 1762428762641,
-          "duration" : 8048
+          "start" : 1762736286221,
+          "stop" : 1762736292270,
+          "duration" : 6049
         },
         "flaky" : false,
         "newFailed" : false,
@@ -588,14 +142,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "loginViaPasswordRecoveryForm(Browser) [1] CHROME",
-        "uid" : "6c67a39b432ddabc",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Переход в профиль через личный кабинет",
+        "uid" : "585bb337c3ea019d",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428790269,
-          "stop" : 1762428797961,
-          "duration" : 7692
+          "start" : 1762736292304,
+          "stop" : 1762736297506,
+          "duration" : 5202
         },
         "flaky" : false,
         "newFailed" : false,
@@ -605,14 +159,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "registerWithShortPasswordShowsError(Browser) [1] CHROME",
-        "uid" : "783f0b48acb9f12e",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Переход из личного кабинета в главную страницу через логотип",
+        "uid" : "b688d4a5cd224a79",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428886210,
-          "stop" : 1762428895802,
-          "duration" : 9592
+          "start" : 1762736280428,
+          "stop" : 1762736286209,
+          "duration" : 5781
         },
         "flaky" : false,
         "newFailed" : false,
@@ -622,14 +176,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "testNavigateToSaucesSection(Browser) [2] YANDEX",
-        "uid" : "6928eb0e5d65707b",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Проверка навигации к секции соусов",
+        "uid" : "5d3b6ece154c1ddb",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428705267,
-          "stop" : 1762428714348,
-          "duration" : 9081
+          "start" : 1762736240018,
+          "stop" : 1762736244317,
+          "duration" : 4299
         },
         "flaky" : false,
         "newFailed" : false,
@@ -639,14 +193,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "navigateToConstructorFromPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "15d7c614e55a26de",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Проверка навигации к секции начинок",
+        "uid" : "2d7089aeeaf75642",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428845644,
-          "stop" : 1762428856454,
-          "duration" : 10810
+          "start" : 1762736234009,
+          "stop" : 1762736239863,
+          "duration" : 5854
         },
         "flaky" : false,
         "newFailed" : false,
@@ -656,235 +210,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "testNavigateToFillingsSection(Browser) [1] CHROME",
-        "uid" : "8a536a14cdb1252e",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
+        "name" : "Выход из аккаунта через личный кабинет",
+        "uid" : "c2c0fd56d8b4e390",
+        "parentUid" : "627d725ddad6387ff08240f3cc75ffad",
         "status" : "passed",
         "time" : {
-          "start" : 1762428678958,
-          "stop" : 1762428688230,
-          "duration" : 9272
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "logoutViaPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "7eb480210d4d9794",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428807187,
-          "stop" : 1762428816786,
-          "duration" : 9599
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToSaucesSection(Browser) [1] CHROME",
-        "uid" : "3dd75e003cc1737",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428697743,
-          "stop" : 1762428705259,
-          "duration" : 7516
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToMainPageViaLogoFromPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "26147375ddb0f4a5",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428827362,
-          "stop" : 1762428835952,
-          "duration" : 8590
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToProfileViaPersonalCabinet(Browser) [1] CHROME",
-        "uid" : "53a2624c545108e",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428868069,
-          "stop" : 1762428876317,
-          "duration" : 8248
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registerUserInBrowsers(Browser) [2] YANDEX",
-        "uid" : "f34acee6b15941ff",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428910861,
-          "stop" : 1762428920332,
-          "duration" : 9471
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaRegistrationForm(Browser) [2] YANDEX",
-        "uid" : "6670041e58c3f26d",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428781061,
-          "stop" : 1762428790256,
-          "duration" : 9195
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToMainPageViaLogoFromPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "65db8c26a6b186b5",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428835956,
-          "stop" : 1762428845638,
-          "duration" : 9682
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaMainPageButton(Browser) [2] YANDEX",
-        "uid" : "809b913624b29e4d",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428762647,
-          "stop" : 1762428773705,
-          "duration" : 11058
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginViaRegistrationForm(Browser) [1] CHROME",
-        "uid" : "b935b985b5287ebd",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428773730,
-          "stop" : 1762428781056,
-          "duration" : 7326
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "logoutViaPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "2e7288ee985a49a2",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428816796,
-          "stop" : 1762428827342,
-          "duration" : 10546
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToBunsSection(Browser) [2] YANDEX",
-        "uid" : "78c3a290c1efed19",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428722515,
-          "stop" : 1762428734726,
-          "duration" : 12211
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testNavigateToFillingsSection(Browser) [2] YANDEX",
-        "uid" : "ddae7654a28961bf",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428688348,
-          "stop" : 1762428697729,
-          "duration" : 9381
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigateToConstructorFromPersonalCabinet(Browser) [2] YANDEX",
-        "uid" : "74bacd1a8b41fb3",
-        "parentUid" : "3f4e2733994cddfc035249c831cc13db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1762428856464,
-          "stop" : 1762428868051,
-          "duration" : 11587
+          "start" : 1762736273885,
+          "stop" : 1762736280405,
+          "duration" : 6520
         },
         "flaky" : false,
         "newFailed" : false,
@@ -894,7 +227,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3f4e2733994cddfc035249c831cc13db"
+      "uid" : "627d725ddad6387ff08240f3cc75ffad"
     } ],
     "uid" : "fe339af24cd6d1c2dddf361e749295a9"
   } ]

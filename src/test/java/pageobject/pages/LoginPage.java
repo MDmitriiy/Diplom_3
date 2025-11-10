@@ -1,5 +1,6 @@
 package pageobject.pages;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
@@ -11,29 +12,34 @@ import static io.restassured.RestAssured.given;
 
 public class LoginPage {
     private static final String API_BASE_URL = "https://stellarburgers.education-services.ru/api";
-    private final SelenideElement registrationLink = $(By.xpath("//a[@href='/register']"));
-    private final SelenideElement forgotPasswordLink = $(By.xpath("//a[@href='/forgot-password']"));
+
     private final SelenideElement emailField = $(By.xpath("//label[text()='Email']/following-sibling::input"));
     private final SelenideElement passwordField = $(By.xpath("//label[text()='Пароль']/following-sibling::input"));
     private final SelenideElement loginButton = $(By.xpath("//button[text()='Войти']"));
+    private final SelenideElement registerLink = $(By.xpath("//a[@href='/register']"));
 
-    @Step("Клик по ссылке 'Зарегистрироваться'")
-    public RegistrationPage clickRegisterButton() {
-        registrationLink.click();
-        return page(RegistrationPage.class);
-    }
-
-    @Step("Клик по ссылке 'Восстановить пароль'")
-    public ForgotPasswordPage clickForgotPasswordLink() {
-        forgotPasswordLink.click();
-        return page(ForgotPasswordPage.class);
-    }
-
-    @Step("Вход в аккаунт")
-    public ValidatableResponse login(String email, String password) {
+    @Step("Ввод email")
+    public LoginPage setEmail(String email) {
         emailField.setValue(email);
+        return this;
+    }
+
+    @Step("Ввод пароля")
+    public LoginPage setPassword(String password) {
         passwordField.setValue(password);
+        return this;
+    }
+
+    @Step("Нажатие на кнопку входа")
+    public void clickLoginButton() {
         loginButton.click();
+    }
+
+    @Step("Вход в систему")
+    public ValidatableResponse login(String email, String password) {
+        setEmail(email);
+        setPassword(password);
+        clickLoginButton();
 
         return given()
                 .header("Content-type", "application/json")
@@ -41,12 +47,20 @@ public class LoginPage {
                 .post(API_BASE_URL + "/auth/login")
                 .then();
     }
-    @Step("Проверка видимости формы входа")
-    public boolean isLoginFormVisible() {
-        return emailField.isDisplayed() && passwordField.isDisplayed() && loginButton.isDisplayed();
+
+    @Step("Переход на страницу регистрации")
+    public RegistrationPage clickRegisterButton() {
+        registerLink.click();
+        return page(RegistrationPage.class);
     }
+
+    @Step("Ожидание загрузки страницы входа")
+    public void waitForLoginPageToLoad() {
+        $(By.xpath("//h2[text()='Вход']")).shouldBe(Condition.visible);
+    }
+
     @Step("Проверка видимости страницы входа")
     public boolean isLoginPageVisible() {
-        return $(By.xpath("//h2[text()='Вход']")).isDisplayed();
+        return $(By.xpath("//h2[text()='Вход']")).is(Condition.visible);
     }
 }

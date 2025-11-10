@@ -2,63 +2,46 @@ package pageobject.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-import org.openqa.selenium.By;
+import pageobject.UserData;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.page;
+import static com.codeborne.selenide.Selenide.$x;
 
 public class RegistrationPage {
-    private final SelenideElement nameField = $(By.xpath("//label[text()='Имя']/following-sibling::input"));
-    private final SelenideElement emailField = $(By.xpath("//label[text()='Email']/following-sibling::input"));
-    private final SelenideElement passwordField = $(By.xpath("//label[text()='Пароль']/following-sibling::input"));
-    private final SelenideElement registerButton = $(By.xpath("//button[text()='Зарегистрироваться']"));
-    private final SelenideElement loginLink = $(By.xpath("//a[@href='/login']"));
-    private final SelenideElement passwordError = $(By.xpath("//p[text()='Некорректный пароль']"));
+    private SelenideElement nameInput = $x("//label[text()='Имя']/following-sibling::input");
+    private SelenideElement emailInput = $x("//label[text()='Email']/following-sibling::input");
+    private SelenideElement passwordInput = $x("//label[text()='Пароль']/following-sibling::input");
+    private SelenideElement registerButton = $x("//button[text()='Зарегистрироваться']");
+    private SelenideElement passwordError = $x("//p[text()='Некорректный пароль']");
 
-    @Step("Ввод имени")
-    public RegistrationPage setName(String name) {
-        nameField.setValue(name);
-        return this;
+    @Step("Ожидание загрузки страницы регистрации")
+    public void waitForRegistrationPageToLoad() {
+        nameInput.shouldBe(com.codeborne.selenide.Condition.visible);
     }
-
-    @Step("Ввод email")
-    public RegistrationPage setEmail(String email) {
-        emailField.setValue(email);
-        return this;
-    }
-
-    @Step("Ввод пароля")
-    public RegistrationPage setPassword(String password) {
-        passwordField.setValue(password);
-        return this;
-    }
-
-    @Step("Нажатие на кнопку регистрации")
-    public void clickRegisterButton() {
+@Step("Регистрация пользователя")
+    public void register(String name, String email, String password) {
+        nameInput.setValue(name);
+        emailInput.setValue(email);
+        passwordInput.setValue(password);
         registerButton.click();
     }
-
-    @Step("Регистрация")
-    public void register(String name, String email, String password) {
-        setName(name);
-        setEmail(email);
-        setPassword(password);
-        clickRegisterButton();
+@Step("Регистрация пользователя")
+    public void register(UserData userData) {
+        nameInput.setValue(userData.getName());
+        emailInput.setValue(userData.getEmail());
+        passwordInput.setValue(userData.getPassword());
+        registerButton.click();
     }
-
-    @Step("Переход на страницу логина")
-    public LoginPage clickLoginLink() {
-        loginLink.click();
-        return page(LoginPage.class);
-    }
-
-    @Step("Проверка видимости сообщения об ошибке")
+@Step("Проверка отображения ошибки пароля")
     public boolean isPasswordErrorVisible() {
         return passwordError.isDisplayed();
     }
-
-    @Step("Получение сообщения об ошибке")
+@Step("Получение сообщения об ошибке пароля")
     public String getPasswordErrorMessage() {
         return passwordError.getText();
+    }
+@Step("Переход на страницу логина")
+    public LoginPage clickLoginLink() {
+        $x("//a[@href='/login']").click();
+        return new LoginPage();
     }
 }

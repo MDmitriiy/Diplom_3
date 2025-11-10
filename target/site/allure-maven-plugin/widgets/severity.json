@@ -1,260 +1,130 @@
 [ {
-  "uid" : "ee4340336b2d82a0",
-  "name" : "navigateToConstructorFromPersonalCabinet(Browser) [2] YANDEX",
+  "uid" : "5d3b6ece154c1ddb",
+  "name" : "Проверка навигации к секции соусов",
   "time" : {
-    "start" : 1762447677532,
-    "stop" : 1762447687788,
-    "duration" : 10256
+    "start" : 1762736240018,
+    "stop" : 1762736244317,
+    "duration" : 4299
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "10fa9fa31cfc05fd",
-  "name" : "testNavigateToFillingsSection(Browser) [1] CHROME",
+  "uid" : "53760b22fcc2214a",
+  "name" : "Проверка навигации к секции булок",
   "time" : {
-    "start" : 1762447478263,
-    "stop" : 1762447488694,
-    "duration" : 10431
+    "start" : 1762736244324,
+    "stop" : 1762736248616,
+    "duration" : 4292
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e7639ef28c80e88f",
-  "name" : "testNavigateToSaucesSection(Browser) [1] CHROME",
+  "uid" : "b8ad26767a97861",
+  "name" : "Вход через главную страницу",
   "time" : {
-    "start" : 1762447501431,
-    "stop" : 1762447509341,
-    "duration" : 7910
+    "start" : 1762736256547,
+    "stop" : 1762736262315,
+    "duration" : 5768
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4b584fec59527b11",
-  "name" : "logoutViaPersonalCabinet(Browser) [2] YANDEX",
+  "uid" : "2d7089aeeaf75642",
+  "name" : "Проверка навигации к секции начинок",
   "time" : {
-    "start" : 1762447636851,
-    "stop" : 1762447649707,
-    "duration" : 12856
+    "start" : 1762736234009,
+    "stop" : 1762736239863,
+    "duration" : 5854
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "43e13e9b7cddd8da",
-  "name" : "loginViaMainPageButton(Browser) [2] YANDEX",
+  "uid" : "c2c0fd56d8b4e390",
+  "name" : "Выход из аккаунта через личный кабинет",
   "time" : {
-    "start" : 1762447577499,
-    "stop" : 1762447589084,
-    "duration" : 11585
+    "start" : 1762736273885,
+    "stop" : 1762736280405,
+    "duration" : 6520
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fa1c4c521fe761a3",
-  "name" : "testNavigateToSaucesSection(Browser) [2] YANDEX",
+  "uid" : "448bc64b36bf9c95",
+  "name" : "Вход через форму регистрации",
   "time" : {
-    "start" : 1762447509356,
-    "stop" : 1762447518725,
-    "duration" : 9369
+    "start" : 1762736262322,
+    "stop" : 1762736268090,
+    "duration" : 5768
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8d4afac19eb27ec4",
-  "name" : "loginViaRegistrationForm(Browser) [2] YANDEX",
+  "uid" : "d584f3d7c4fd79c8",
+  "name" : "Переход из личного кабинета в конструктор",
   "time" : {
-    "start" : 1762447599514,
-    "stop" : 1762447610217,
-    "duration" : 10703
+    "start" : 1762736286221,
+    "stop" : 1762736292270,
+    "duration" : 6049
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "52c38cef7e39cb0",
-  "name" : "testNavigateToBunsSection(Browser) [2] YANDEX",
+  "uid" : "b688d4a5cd224a79",
+  "name" : "Переход из личного кабинета в главную страницу через логотип",
   "time" : {
-    "start" : 1762447530215,
-    "stop" : 1762447540706,
-    "duration" : 10491
+    "start" : 1762736280428,
+    "stop" : 1762736286209,
+    "duration" : 5781
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "34a0671be69cdce0",
-  "name" : "navigateToMainPageViaLogoFromPersonalCabinet(Browser) [1] CHROME",
+  "uid" : "991548dd77ff6fd0",
+  "name" : "Вход через форму восстановления пароля",
   "time" : {
-    "start" : 1762447649733,
-    "stop" : 1762447658716,
-    "duration" : 8983
+    "start" : 1762736268101,
+    "stop" : 1762736273853,
+    "duration" : 5752
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a040078bc11c097",
-  "name" : "navigateToMainPageViaLogoFromPersonalCabinet(Browser) [2] YANDEX",
+  "uid" : "585bb337c3ea019d",
+  "name" : "Переход в профиль через личный кабинет",
   "time" : {
-    "start" : 1762447658724,
-    "stop" : 1762447669043,
-    "duration" : 10319
+    "start" : 1762736292304,
+    "stop" : 1762736297506,
+    "duration" : 5202
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "716172b5c359452a",
-  "name" : "logoutViaPersonalCabinet(Browser) [1] CHROME",
+  "uid" : "11bc4f77a9c51b96",
+  "name" : "Вход через личный кабинет",
   "time" : {
-    "start" : 1762447627221,
-    "stop" : 1762447636845,
-    "duration" : 9624
+    "start" : 1762736248641,
+    "stop" : 1762736256533,
+    "duration" : 7892
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c60256069a7d3c33",
-  "name" : "loginViaMainPageButton(Browser) [1] CHROME",
+  "uid" : "6669cd1d03d8e3b6",
+  "name" : "Регистрация пользователя",
   "time" : {
-    "start" : 1762447564309,
-    "stop" : 1762447577487,
-    "duration" : 13178
+    "start" : 1762736297535,
+    "stop" : 1762736302609,
+    "duration" : 5074
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2b561ca1716eec8d",
-  "name" : "navigateToProfileViaPersonalCabinet(Browser) [2] YANDEX",
+  "uid" : "50a0dd881502da4",
+  "name" : "Регистрация с коротким паролем",
   "time" : {
-    "start" : 1762447696570,
-    "stop" : 1762447706015,
-    "duration" : 9445
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "52779c809e791a41",
-  "name" : "testNavigateToBunsSection(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447518737,
-    "stop" : 1762447530198,
-    "duration" : 11461
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b8c2e92f6f0d28c",
-  "name" : "loginViaPersonalCabinetButton(Browser) [2] YANDEX",
-  "time" : {
-    "start" : 1762447551383,
-    "stop" : 1762447564302,
-    "duration" : 12919
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a2eb79cd08cf804",
-  "name" : "registerWithShortPasswordShowsError(Browser) [2] YANDEX",
-  "time" : {
-    "start" : 1762447715105,
-    "stop" : 1762447725533,
-    "duration" : 10428
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b06ac703302f3093",
-  "name" : "loginViaPersonalCabinetButton(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447540770,
-    "stop" : 1762447551362,
-    "duration" : 10592
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6ad438273d6940d2",
-  "name" : "registerWithShortPasswordShowsError(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447706026,
-    "stop" : 1762447715100,
-    "duration" : 9074
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b6ea13c57a80d57",
-  "name" : "navigateToConstructorFromPersonalCabinet(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447669055,
-    "stop" : 1762447677518,
-    "duration" : 8463
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18f4b07af02c5311",
-  "name" : "loginViaPasswordRecoveryForm(Browser) [2] YANDEX",
-  "time" : {
-    "start" : 1762447618012,
-    "stop" : 1762447627200,
-    "duration" : 9188
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "434ef0ffbf3bde97",
-  "name" : "loginViaRegistrationForm(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447589103,
-    "stop" : 1762447599505,
-    "duration" : 10402
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53dc53fe5210f33d",
-  "name" : "navigateToProfileViaPersonalCabinet(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447687804,
-    "stop" : 1762447696565,
-    "duration" : 8761
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e38021bc3d64c518",
-  "name" : "registerUserInBrowsers(Browser) [2] YANDEX",
-  "time" : {
-    "start" : 1762447732559,
-    "stop" : 1762447741127,
-    "duration" : 8568
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "415a8c1b136e0665",
-  "name" : "testNavigateToFillingsSection(Browser) [2] YANDEX",
-  "time" : {
-    "start" : 1762447488878,
-    "stop" : 1762447501417,
-    "duration" : 12539
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5e5a814d4cb1526",
-  "name" : "registerUserInBrowsers(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447725542,
-    "stop" : 1762447732554,
-    "duration" : 7012
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fbf4ffcd61441b54",
-  "name" : "loginViaPasswordRecoveryForm(Browser) [1] CHROME",
-  "time" : {
-    "start" : 1762447610230,
-    "stop" : 1762447618001,
-    "duration" : 7771
+    "start" : 1762736302613,
+    "stop" : 1762736307401,
+    "duration" : 4788
   },
   "status" : "passed",
   "severity" : "normal"
