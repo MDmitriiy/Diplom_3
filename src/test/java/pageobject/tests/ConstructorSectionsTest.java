@@ -1,9 +1,7 @@
 package pageobject.tests;
 
 import io.qameta.allure.Step;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
+import org.junit.jupiter.api.*;
 import pageobject.ApiConf;
 import pageobject.BrowserConfig;
 import pageobject.pages.MainPage;
@@ -13,11 +11,25 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ConstructorSectionsTest extends ApiConf {
 
+    private MainPage mainPage;
+
+    @BeforeEach
+    @Step("Настройка драйвера и открытие главной страницы")
+    public void setupAndOpenMainPage() {
+        setupTest(BrowserConfig.getBrowserFromConfig());
+        open(BASE_URL);
+        mainPage = new MainPage();
+    }
+
+    @AfterEach
+    public void tearDown() {
+        authToken = null;
+        closeWebDriver();
+    }
+
     @Test
     @DisplayName("Проверка навигации к секции булок")
     public void testNavigateToBunsSection() {
-        setupAndOpenMainPage();
-        MainPage mainPage = new MainPage();
         mainPage.clickSaucesTab();
         mainPage.scrollToSection("Соусы");
         mainPage.clickBunsTab();
@@ -28,8 +40,6 @@ public class ConstructorSectionsTest extends ApiConf {
     @Test
     @DisplayName("Проверка навигации к секции соусов")
     public void testNavigateToSaucesSection() {
-        setupAndOpenMainPage();
-        MainPage mainPage = new MainPage();
         mainPage.clickSaucesTab();
         mainPage.scrollToSection("Соусы");
         assertTrue(mainPage.isSectionInViewport("Соусы"), "Секция 'Соусы' не в области просмотра");
@@ -38,16 +48,8 @@ public class ConstructorSectionsTest extends ApiConf {
     @Test
     @DisplayName("Проверка навигации к секции начинок")
     public void testNavigateToFillingsSection() {
-        setupAndOpenMainPage();
-        MainPage mainPage = new MainPage();
         mainPage.clickFillingsTab();
         mainPage.scrollToSection("Начинки");
         assertTrue(mainPage.isSectionInViewport("Начинки"), "Секция 'Начинки' не в области просмотра");
-    }
-
-    @Step("Настройка драйвера и открытие главной страницы")
-    private void setupAndOpenMainPage() {
-        setupTest(BrowserConfig.getBrowserFromConfig());
-        open(BASE_URL);
     }
 }

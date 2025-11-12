@@ -1,130 +1,130 @@
 [ {
-  "uid" : "1971c5e802e8f8a0",
-  "name" : "Переход из личного кабинета в главную страницу через логотип",
-  "time" : {
-    "start" : 1762737120836,
-    "stop" : 1762737127212,
-    "duration" : 6376
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae50151bf3c494f4",
-  "name" : "Проверка навигации к секции начинок",
-  "time" : {
-    "start" : 1762737073142,
-    "stop" : 1762737080625,
-    "duration" : 7483
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d8e1486f21cc10b5",
-  "name" : "Переход из личного кабинета в конструктор",
-  "time" : {
-    "start" : 1762737127227,
-    "stop" : 1762737134324,
-    "duration" : 7097
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28d59ab65565772",
-  "name" : "Вход через личный кабинет",
-  "time" : {
-    "start" : 1762737089439,
-    "stop" : 1762737097024,
-    "duration" : 7585
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "969a1bfd0c5cdd88",
-  "name" : "Регистрация с коротким паролем",
-  "time" : {
-    "start" : 1762737144911,
-    "stop" : 1762737150822,
-    "duration" : 5911
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "280ecbe4d7d969fc",
-  "name" : "Переход в профиль через личный кабинет",
-  "time" : {
-    "start" : 1762737134355,
-    "stop" : 1762737139743,
-    "duration" : 5388
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f36988d659137ec",
+  "uid" : "db73fb76fbd0fe36",
   "name" : "Вход через главную страницу",
   "time" : {
-    "start" : 1762737097039,
-    "stop" : 1762737103384,
-    "duration" : 6345
+    "start" : 1762987645062,
+    "stop" : 1762987651655,
+    "duration" : 6593
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "60b34c0449b331e6",
-  "name" : "Выход из аккаунта через личный кабинет",
-  "time" : {
-    "start" : 1762737114524,
-    "stop" : 1762737120814,
-    "duration" : 6290
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b86dddd9b5d8d63",
-  "name" : "Вход через форму восстановления пароля",
-  "time" : {
-    "start" : 1762737108933,
-    "stop" : 1762737114486,
-    "duration" : 5553
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5768a0ad9aaed0f0",
-  "name" : "Регистрация пользователя",
-  "time" : {
-    "start" : 1762737139768,
-    "stop" : 1762737144906,
-    "duration" : 5138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd639bc76d013cdd",
-  "name" : "Вход через форму регистрации",
-  "time" : {
-    "start" : 1762737103389,
-    "stop" : 1762737108927,
-    "duration" : 5538
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c2269a6aec0ae21",
+  "uid" : "b29b32da0e3b3a31",
   "name" : "Проверка навигации к секции соусов",
   "time" : {
-    "start" : 1762737080883,
-    "stop" : 1762737085110,
-    "duration" : 4227
+    "start" : 1762987623639,
+    "stop" : 1762987628759,
+    "duration" : 5120
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "13b9730aebf20fa2",
+  "uid" : "da760f2b02af8f14",
+  "name" : "Вход через форму регистрации",
+  "time" : {
+    "start" : 1762987651669,
+    "stop" : 1762987658015,
+    "duration" : 6346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbc5d0683351ea45",
+  "name" : "Проверка навигации к секции начинок",
+  "time" : {
+    "start" : 1762987613863,
+    "stop" : 1762987623424,
+    "duration" : 9561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c1b1f8931bb8ea0",
+  "name" : "Регистрация пользователя",
+  "time" : {
+    "start" : 1762987693808,
+    "stop" : 1762987700265,
+    "duration" : 6457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "804a3846956f154a",
   "name" : "Проверка навигации к секции булок",
   "time" : {
-    "start" : 1762737085115,
-    "stop" : 1762737089371,
-    "duration" : 4256
+    "start" : 1762987628771,
+    "stop" : 1762987633558,
+    "duration" : 4787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9399bb935166b59",
+  "name" : "Вход через личный кабинет",
+  "time" : {
+    "start" : 1762987633631,
+    "stop" : 1762987645055,
+    "duration" : 11424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5941d1d5dc50d9f",
+  "name" : "Регистрация с коротким паролем",
+  "time" : {
+    "start" : 1762987700273,
+    "stop" : 1762987706062,
+    "duration" : 5789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9fc3bae47172509",
+  "name" : "Переход из личного кабинета в конструктор",
+  "time" : {
+    "start" : 1762987679635,
+    "stop" : 1762987687540,
+    "duration" : 7905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2852aea721bd16",
+  "name" : "Переход из личного кабинета в главную страницу через логотип",
+  "time" : {
+    "start" : 1762987672023,
+    "stop" : 1762987679631,
+    "duration" : 7608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99cbd29f46697f46",
+  "name" : "Выход из аккаунта через личный кабинет",
+  "time" : {
+    "start" : 1762987664601,
+    "stop" : 1762987672000,
+    "duration" : 7399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80dde2afaeb13b41",
+  "name" : "Переход в профиль через личный кабинет",
+  "time" : {
+    "start" : 1762987687554,
+    "stop" : 1762987693780,
+    "duration" : 6226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d80295456646b0f",
+  "name" : "Вход через форму восстановления пароля",
+  "time" : {
+    "start" : 1762987658021,
+    "stop" : 1762987664561,
+    "duration" : 6540
   },
   "status" : "passed",
   "severity" : "normal"

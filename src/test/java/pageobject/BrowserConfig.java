@@ -22,19 +22,16 @@ public class BrowserConfig {
     public static WebDriver createDriver(BrowserType browserType) {
         switch (browserType) {
             case CHROME:
-                ChromeOptions chromeOptions = new ChromeOptions();
-                return new ChromeDriver(chromeOptions);
+                return new ChromeDriver(new ChromeOptions());
             case YANDEX:
-                // Установка пути к YandexDriver
-                System.setProperty("webdriver.chrome.driver",
-                        "C:\\Users\\dima1\\OneDrive\\Desktop\\yandexdriver.exe");
+                // Путь передается извне (через системные свойства)
+                //-Dwebdriver.chrome.driver="path/to/yandexdriver.exe"
                 ChromeOptions yandexOptions = new ChromeOptions();
                 yandexOptions.addArguments("--no-sandbox");
                 yandexOptions.addArguments("--disable-dev-shm-usage");
                 return new ChromeDriver(yandexOptions);
             default:
-                ChromeOptions defaultOptions = new ChromeOptions();
-                return new ChromeDriver(defaultOptions);
+                return new ChromeDriver(new ChromeOptions());
         }
     }
 }
